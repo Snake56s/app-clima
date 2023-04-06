@@ -2,6 +2,7 @@ import { LoadingButton } from '@mui/lab';
 import { TextField, Typography } from '@mui/material';
 import { Box, Container } from '@mui/system';
 import React, { useState } from 'react';
+import Search from './components/search';
 const API_QUERY = `http://api.weatherapi.com/v1/current.json?key=${
   import.meta.env.VITE_API_KEY
 }&lang=es&q=`;
